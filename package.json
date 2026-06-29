@@ -1,0 +1,13 @@
+{
+  "name": "undici-h2-expect-continue-bug",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal repro: undici's HTTP/2 client hangs on an early final response to an Expect: 100-continue request",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "undici": "8.5.0"
+  }
+}
